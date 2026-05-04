@@ -2,6 +2,3 @@ __pycache__/
 *.pyc
 .env
 mlruns/
-models/*.pkl
-logs/*.jsonl
-results/*.json

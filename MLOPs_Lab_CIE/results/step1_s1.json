@@ -1,0 +1,22 @@
+{
+    "experiment_name": "quantumbench-circuit-exec-ms",
+    "models": [
+        {
+            "name": "RandomForest",
+            "mae": 60.52894000000008,
+            "rmse": 68.7006582025384,
+            "r2": 0.5445692780705205,
+            "mape": 0.24552024036200848
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 49.94641575264183,
+            "rmse": 60.124978164758,
+            "r2": 0.6511727607086055,
+            "mape": 0.18155507650129538
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "mae",
+    "best_metric_value": 49.94641575264183
+}

@@ -1,0 +1,13 @@
+{
+    "search_type": "grid",
+    "n_folds": 3,
+    "total_trials": 18,
+    "best_params": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "max_depth": 3
+    },
+    "best_mae": 47.81253257198025,
+    "best_cv_mae": 47.81253257198025,
+    "parent_run_name": "tuning-quantumbench"
+}

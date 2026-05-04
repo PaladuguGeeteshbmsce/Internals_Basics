@@ -1,0 +1,23 @@
+{
+    "total_predictions": 50,
+    "mean_prediction": 243.4668033457236,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "qubit_count",
+            "train_mean": 49.52,
+            "live_mean": 100.0,
+            "shift": 50.48,
+            "threshold": 15.28,
+            "status": "ALERT"
+        },
+        {
+            "feature": "gate_depth",
+            "train_mean": 258.96,
+            "live_mean": 500.0,
+            "shift": 241.04,
+            "threshold": 146.91,
+            "status": "ALERT"
+        }
+    ]
+}

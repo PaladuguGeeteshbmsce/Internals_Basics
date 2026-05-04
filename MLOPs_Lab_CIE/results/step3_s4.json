@@ -1,0 +1,16 @@
+{
+    "health_endpoint": "/heartbeat",
+    "predict_endpoint": "/infer",
+    "port": 8888,
+    "health_response": {
+        "alive": true,
+        "service": "QuantumBench circuit_exec_ms API"
+    },
+    "test_input": {
+        "qubit_count": 36,
+        "gate_depth": 326,
+        "error_rate_pct": 1.8,
+        "is_error_corrected": 1
+    },
+    "prediction": 179.04088940988427
+}
